@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Search</title>
+</head>
+<body>
+
+    <h1>Inventory Search</h1>
+
+    <form action="/search" method="GET">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id" required>
+        <br><br>
+
+        <input type="checkbox" id="includePhoto" name="includePhoto">
+        <label for="includePhoto">Include photo in description</label>
+        <br><br>
+
+        <button type="submit">Search</button>
+    </form>
+
+</body>
+</html>
